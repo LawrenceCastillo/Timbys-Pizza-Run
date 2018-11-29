@@ -18,6 +18,7 @@ public class GameManager : MonoBehaviour {
 
     private AudioSource themeSong;
 
+
 	// Use this for initialization
 	void Start () {
         platformStartPoint = platformGenerator.position;
@@ -25,6 +26,7 @@ public class GameManager : MonoBehaviour {
 
         theScoreManager = FindObjectOfType<ScoreManager>();
         themeSong = GameObject.Find("Pizza Rat Score V1").GetComponent<AudioSource>();
+
     }
 	
 	// Update is called once per frame
@@ -46,6 +48,7 @@ public class GameManager : MonoBehaviour {
     {
         theDeathScreen.gameObject.SetActive(false);
         themeSong.Play();
+
 
 
         platformList = FindObjectsOfType<PlatformDestroyer>(); //searches for all platforms of type destructor
