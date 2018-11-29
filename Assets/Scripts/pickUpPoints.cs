@@ -13,7 +13,7 @@ public class pickUpPoints : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         theScoreManager = FindObjectOfType<ScoreManager>();
-        pizzaSound = GameObject.Find("PizzaSound").GetComponent<AudioSource>();
+        pizzaSound = GameObject.Find("Eating").GetComponent<AudioSource>();
 	}
 	
 	// Update is called once per frame

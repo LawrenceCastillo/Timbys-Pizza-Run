@@ -7,9 +7,27 @@ public class DeathMenu : MonoBehaviour {
 
     public string mainMenuLevel;
 
-    public void RestartGame()
+    private AudioSource mainSound;
+    internal bool activeInHierarchy;
+
+   /* void Start()
     {
-        FindObjectOfType<GameManager>().Reset();
+        mainSound = GameObject.Find("Pizza Rat Score V1").GetComponent<AudioSource>();
+        if (mainSound.isPlaying)
+        {
+            mainSound.Stop();
+        }
+        else
+        {
+            mainSound.Play();
+        }
+    }*/
+
+          
+public void RestartGame()
+    {
+        FindObjectOfType<GameManager>().Reset();      
+ 
     }
 
     public void QuitToMain()

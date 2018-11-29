@@ -16,13 +16,16 @@ public class GameManager : MonoBehaviour {
 
     public DeathMenu theDeathScreen;
 
+    private AudioSource themeSong;
+
 	// Use this for initialization
 	void Start () {
         platformStartPoint = platformGenerator.position;
         playerStartPoint = thePlayer.transform.position;
 
         theScoreManager = FindObjectOfType<ScoreManager>();
-	}
+        themeSong = GameObject.Find("Pizza Rat Score V1").GetComponent<AudioSource>();
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -36,11 +39,15 @@ public class GameManager : MonoBehaviour {
         theScoreManager.scoreIncreasing = false;
         thePlayer.gameObject.SetActive(false); // hides player after they die
         theDeathScreen.gameObject.SetActive(true);
+        themeSong.Stop();
     }
 
     public void Reset()
     {
         theDeathScreen.gameObject.SetActive(false);
+        themeSong.Play();
+
+
         platformList = FindObjectsOfType<PlatformDestroyer>(); //searches for all platforms of type destructor
         for (int i = 0; i < platformList.Length; i++)
         {
