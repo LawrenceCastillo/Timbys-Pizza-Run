@@ -3,7 +3,7 @@
 
 <p><img src="https://img.itch.zone/aW1nLzE2NzA4NzcuanBn/315x250%23c/GTMRpc.jpg"></p>
 
-<p>Development Team:<br>
+<p><strong>Development Team:</strong><br>
 Lead Developer: Jessica Adjei<br>
 Developer: Alfredo Marrero<br>
 Developer: Zaiba Iqbal<br>
@@ -11,9 +11,9 @@ Sound and Music: Alex Juhan<br>
 Artwork: Sarah Roman<br>
 Coordinator: Lawrence Castillo</p>
 
-<p>Special Thanks to:<br>
+<p><strong>Special Thanks to:</strong><br>
 Hunter Esports and Game Design Collective (Hunter College, New York, NY)</p>
 
-<p>Game controls:<br>
+<p><strong>Game controls:</strong><br>
 Space-bar: jump<br>
 Left-click (mouse): start, in-game options</p
