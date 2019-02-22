@@ -1,7 +1,7 @@
 # Timbys-Pizza-Run
 <p><a href="https://lawrencecastillo.itch.io/timbys-pizza-run">Game Off 2018 game entry - itch.io</a></p>
 
-<p><img src="https://img.itch.zone/aW1nLzE2NzA4NzcuanBn/315x250%23c/GTMRpc.jpg"></p>
+<p><img src="https://github.com/LawrenceCastillo/Timbys-Pizza-Run/blob/master/Assets/Art/title%20screen.jpg"></p>
 
 <p><strong>Development Team:</strong><br>
 Lead Developer: Jessica Adjei<br>
